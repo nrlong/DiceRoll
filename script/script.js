@@ -5,9 +5,9 @@ document.querySelector("img.img1").setAttribute("src", "images/dice" + randomNum
 
 document.querySelector("img.img2").setAttribute("src", "images/dice" + randomNumber2 + ".png");
 
-if(randomNumber1 < randomNumber2){
+if(randomNumber1 > randomNumber2){
     document.getElementsByTagName("h1")[0].innerHTML = "🚩 Player 1 Wins!!!"
-}else if (randomNumber2 < randomNumber1){
+}else if (randomNumber2 > randomNumber1){
     document.getElementsByTagName("h1")[0].innerHTML = "Player 2 Wins!!! 🚩"
 }else{
     document.getElementsByTagName("h1")[0].innerHTML = "🚩 ITS A DRAW!! 🚩"
