@@ -12,3 +12,7 @@ if(randomNumber1 < randomNumber2){
 }else{
     document.getElementsByTagName("h1")[0].innerHTML = "🚩 ITS A DRAW!! 🚩"
 }
+
+function refreshPage(){
+    window.location.reload()
+}
